@@ -1,16 +1,49 @@
-# React + Vite
+# Nimble Gravity Job Application Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A mini React application that connects to the Nimble Gravity API, allowing candidates to browse open positions and submit their application.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Una mini aplicación React que se conecta a la API de Nimble Gravity, permitiendo a los candidatos ver las posiciones abiertas y enviar su postulación.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- [React](https://react.dev/)
+- [Vite](https://vite.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Axios](https://axios-http.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Getting Started / Cómo correr el proyecto
+
+### 1. Clone the repository / Clonar el repositorio
+
+```bash
+git clone https://github.com/MenHec95/nimble-gravity-challenge.git
+cd nimble-gravity-challenge
+```
+
+### 2. Install dependencies / Instalar dependencias
+
+```bash
+npm install
+```
+
+### 3. Configure environment variables / Configurar variables de entorno
+
+```bash
+cp .env.example .env
+```
+
+Complete the `.env` file with the required values / Completá el archivo `.env` con los valores necesarios.
+
+### 4. Start the development server / Iniciar el servidor de desarrollo
+
+```bash
+npm run dev
+```
+
+Open / Abrí [http://localhost:5173](http://localhost:5173)
