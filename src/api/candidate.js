@@ -9,11 +9,12 @@ export const getCandidateByEmail = async (email) => {
   return response.data;
 };
 
-export const applyToJob = async ({ uuid, jobId, candidateId, repoUrl }) => {
+export const applyToJob = async ({ uuid, jobId, candidateId, applicationId, repoUrl }) => {
   const response = await axios.post(`${BASE_URL}/api/candidate/apply-to-job`, {
     uuid,
     jobId,
     candidateId,
+    applicationId,
     repoUrl,
   });
   return response.data;
